@@ -14,7 +14,7 @@ Documents.prototype.init = function() {
     if (typeof window.ethereum !== 'undefined') {
         var that = this;
         this.web3 = new Web3(ethereum);
-        var contractAddress = '0x4B57233D6ce1560cDe194571Cd26dF1ffBb816a8';
+        var contractAddress = '0x5ebD7dD2E4466fE4d2246b558a6670351885A541';
 
         ethereum.enable().then(function (accounts) {
             // Create the contract instance for the specific address provided in the configuration
